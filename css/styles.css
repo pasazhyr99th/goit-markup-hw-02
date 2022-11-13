@@ -1,0 +1,156 @@
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: #212121;
+    background: #FFF;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header-logo {
+    font-family: 'Raleway';
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+}
+
+.header-link,
+.header-link:visited {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+    color: #2196F3;
+}
+
+.mail, .mail:visited,
+.tel, .tel:visited {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+}
+
+.mail:hover, .tel:hover,
+.mail:focus, .tel:focus,
+.mail:active, .tel:active {
+    color: #2196F3;
+}
+.hero {
+    background-color: #2F303A;
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+}
+
+.title-button {
+    color: #fff;
+    background-color: #2196F3;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    cursor: pointer;
+}
+
+.benefits-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.1429;
+}
+
+.benefits-item {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.features-title {
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.team {
+    background: #F5F4FA;
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.team-item {
+    background: #FFF;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.19;
+}
+
+.position {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.19;
+}
+
+.footer {
+    background: #2F303A;
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+}
+
+.address {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.portfolio-button {
+    background-color: #F5F4FA;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus,
+.portfolio-button:active {
+    color: #fff;
+    background: #2196F3;
+}
+
+.project {
+    font-size: 18px;
+    line-height: 2;
+}
+
+.description {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.88;
+}
