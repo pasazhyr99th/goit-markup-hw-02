@@ -1,7 +1,19 @@
+:root {
+    --primary-bg-color: #FFFFFF;
+    --primary-text-color: #212121;
+    --primary-black-text-color: #000000;
+    --primary-blue-text-color: #2196F3;
+    --primary-bg-hero-color: #2F303A;
+    --primary-contacts-header-color: #757575;
+    --primary-contacts-footer-color: rgba(255, 255, 255, 0.6);
+    --primary-button-focus-color: #188CE8;
+    --primary-bg-team-color: #F5F4FA;
+}
+
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
-    color: #212121;
-    background: #FFFFFF;
+    color: var(--primary-text-color);
+    background: var(--primary-bg-color);
 }
 
 .list {
@@ -87,6 +99,11 @@ body {
     cursor: pointer;
     text-align: center;
     letter-spacing: 0.06em;
+}
+
+.title-button:hover,
+.title-button:focus {
+    background: #188CE8;
 }
 
 .benefits-title {
