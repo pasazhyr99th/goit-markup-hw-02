@@ -1,13 +1,13 @@
 :root {
     --primary-bg-color: #FFFFFF;
     --primary-text-color: #212121;
-    --primary-black-text-color: #000000;
-    --primary-blue-text-color: #2196F3;
-    --primary-bg-hero-color: #2F303A;
-    --primary-contacts-header-color: #757575;
-    --primary-contacts-footer-color: rgba(255, 255, 255, 0.6);
-    --primary-button-focus-color: #188CE8;
-    --primary-bg-team-color: #F5F4FA;
+    --black-text-color: #000000;
+    --blue-text-color: #2196F3;
+    --bg-hero-color: #2F303A;
+    --contacts-header-color: #757575;
+    --contacts-footer-color: rgba(255, 255, 255, 0.6);
+    --button-focus-color: #188CE8;
+    --bg-team-color: #F5F4FA;
 }
 
 body {
@@ -26,7 +26,7 @@ body {
 
 .header-logo {
     font-family: 'Raleway';
-    color: #000000;
+    color: var(--black-text-color);
     font-size: 26px;
     font-weight: 700;
     line-height: 1.19;
@@ -34,7 +34,7 @@ body {
 }
 
 .header-link {
-    color: #212121;
+    color: var(--primary-text-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -44,12 +44,12 @@ body {
 .header-link:hover,
 .header-link:focus,
 .header-link:active {
-    color: #2196F3;
+    color: var(--blue-text-color);
 }
 
 .mail-header,
 .tel-header {
-    color: #757575;
+    color: var(--contacts-header-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -58,12 +58,12 @@ body {
 
 .mail-header:hover, .tel-header:hover,
 .mail-header:focus, .tel-header:focus {
-    color: #2196F3;
+    color: var(--blue-text-color);
 }
 
 .mail-footer,
 .tel-footer {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--contacts-footer-color);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -72,15 +72,15 @@ body {
 
 .mail-footer:hover, .tel-footer:hover,
 .mail-footer:focus, .tel-footer:focus {
-    color: #2196F3;
+    color: var(--blue-text-color);
 }
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--bg-hero-color);
 }
 
 .title {
-    color: #FFFFFF;
+    color: var(--primary-bg-color);
     text-transform: uppercase;
     font-size: 44px;
     font-weight: 900;
@@ -91,8 +91,8 @@ body {
 
 .title-button {
     font-family: 'Roboto';
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--primary-bg-color);
+    background-color: var(--blue-text-color);
     font-size: 16px;
     font-weight: 700;
     line-height: 1.88;
@@ -103,7 +103,7 @@ body {
 
 .title-button:hover,
 .title-button:focus {
-    background: #188CE8;
+    background: var(--button-focus-color);
 }
 
 .benefits-title {
@@ -114,7 +114,7 @@ body {
 }
 
 .benefits-item {
-    color: #757575;
+    color: var(--contacts-header-color);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -128,7 +128,7 @@ body {
 }
 
 .team {
-    background: #F5F4FA;
+    background: var(--bg-team-color);
 }
 
 .team-title {
@@ -139,7 +139,7 @@ body {
 }
 
 .team-item {
-    background: #FFFFFF;
+    background: var(--primary-bg-color);
 }
 
 .name {
@@ -150,7 +150,7 @@ body {
 }
 
 .position {
-    color: #757575;
+    color: var(--contacts-header-color);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.19;
@@ -158,12 +158,12 @@ body {
 }
 
 .footer {
-    background: #2F303A;
+    background: var(--bg-hero-color);
 }
 
 .footer-logo {
     font-family: 'Raleway';
-    color: #FFFFFF;
+    color: var(--primary-bg-color);
     font-size: 26px;
     font-weight: 700;
     line-height: 1.19;
@@ -171,7 +171,7 @@ body {
 }
 
 .address {
-    color: #FFFFFF;
+    color: var(--primary-bg-color);
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -180,7 +180,7 @@ body {
 
 .portfolio-button {
     font-family: 'Roboto';
-    background-color: #F5F4FA;
+    background-color: var(--bg-team-color);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.63;
@@ -192,8 +192,8 @@ body {
 .portfolio-button:hover,
 .portfolio-button:focus,
 .portfolio-button:active {
-    color: #FFFFFF;
-    background: #2196F3;
+    color: var(--primary-bg-color);
+    background: var(--blue-text-color);
 }
 
 .project {
@@ -203,12 +203,12 @@ body {
 }
 
 .description {
-    color: #757575;
+    color: var(--contacts-header-color);
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
 }
 
 .blue-logo {
-    color: #2196F3;
+    color: var(--blue-text-color);
 }
